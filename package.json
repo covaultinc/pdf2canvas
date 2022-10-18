@@ -1,5 +1,5 @@
 {
-  "name": "@covault/pdf2canvas",
+  "name": "pdf2canvas",
   "version": "0.1.1",
   "description": "Convert a pdf to image dataURL / file",
   "author": "Junmin Ahn",
