@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const PDFJSLib = require('pdfjs-dist');
+const PDFJSLib = require('pdfjs-dist/legacy/build/pdf');
 const { createCanvas } = require('canvas');
 const NodeCanvasFactory = require('./NodeCanvasFactory');
 
@@ -64,8 +64,7 @@ class Pdf2Canvas {
 
     try {
       const doc = await PDFJSLib.getDocument({
-        data: this.rowData,
-        nativeImageDecoderSupport: PDFJSLib.NativeImageDecoding.DISPLAY,
+        data: this.rowData
       }).promise;
 
       const numPages = doc.numPages;

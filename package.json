@@ -1,6 +1,6 @@
 {
-  "name": "pdf2canvas",
-  "version": "0.1.0",
+  "name": "@covault/pdf2canvas",
+  "version": "0.1.1",
   "description": "Convert a pdf to image dataURL / file",
   "author": "Junmin Ahn",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "url": "https://github.com/junminahn/pdf2canvas/issues"
   },
   "dependencies": {
-    "canvas": "^2.6.1",
-    "pdfjs-dist": "^2.3.200"
+    "canvas": "^2.10.1",
+    "pdfjs-dist": "^2.8.335"
   }
 }
